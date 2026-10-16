@@ -1,0 +1,14 @@
+# Local datasets, trained weights, environments and credentials
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+.venv/
+.cache/
+.jupyter/
+.ipython/
+__pycache__/
+.ipynb_checkpoints/
+data/raw/
+data/validation/*.bmp
+*.log

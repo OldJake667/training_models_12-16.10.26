@@ -1,0 +1,15 @@
+{
+  "model": "ViT-Tiny/16",
+  "initialization": "random",
+  "epochs": 30,
+  "batch_size": 16,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.05,
+  "seed": 42,
+  "training_images": 176,
+  "validation_images": 45,
+  "test_images": 0,
+  "trainable_parameters": 5426498,
+  "total_parameters": 5426498,
+  "device": "mps"
+}

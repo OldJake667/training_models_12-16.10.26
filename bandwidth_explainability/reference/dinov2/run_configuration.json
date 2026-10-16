@@ -1,0 +1,13 @@
+{
+  "model": "vit_small_patch14_dinov2.lvd142m",
+  "method": "pretrained feature extraction and classifier training",
+  "epochs": 20,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "training_images": 176,
+  "validation_images": 45,
+  "test_images": 0,
+  "trainable_parameters": 770,
+  "total_parameters": 21629570,
+  "device": "mps"
+}

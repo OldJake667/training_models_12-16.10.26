@@ -1,0 +1,11 @@
+{
+  "architecture": "vit_small_patch16_224",
+  "total_parameters": 21666434,
+  "trainable_parameters": 21666434,
+  "training_mode": "all_layers",
+  "physical_batch_size": 32,
+  "effective_batch_size": 128,
+  "input_size": 224,
+  "input_channels": 3,
+  "pretrained": false
+}

@@ -1,0 +1,8 @@
+{
+  "changes": [
+    "Removed unsupported progress_bar keyword from LIME 0.2.0.1 calls in module and four notebook copies.",
+    "Enabled the synthetic VMamba kernel check in notebook 00."
+  ],
+  "original_manifest": "reference/package_integrity.original.json",
+  "checkpoint_and_image_files_unchanged": true
+}

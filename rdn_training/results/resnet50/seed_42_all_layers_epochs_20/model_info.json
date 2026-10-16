@@ -1,0 +1,11 @@
+{
+  "architecture": "resnet50",
+  "total_parameters": 23512130,
+  "trainable_parameters": 23512130,
+  "training_mode": "all_layers",
+  "physical_batch_size": 32,
+  "effective_batch_size": 128,
+  "input_size": 224,
+  "input_channels": 3,
+  "pretrained": false
+}

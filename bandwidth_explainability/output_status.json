@@ -1,0 +1,41 @@
+{
+  "snapshot_utc": "2026-10-16T07:11:54.117004+00:00",
+  "runs": [
+    {
+      "model": "cnn",
+      "method": "lime",
+      "run_id": "06c9ad16cf089fca",
+      "completed_images": 45,
+      "expected_images": 45,
+      "status": "complete",
+      "output_directory": "bandwidth_explainability/outputs/cnn/lime/06c9ad16cf089fca"
+    },
+    {
+      "model": "dinov2",
+      "method": "lime",
+      "run_id": "9612aaea62a6baea",
+      "completed_images": 29,
+      "expected_images": 45,
+      "status": "partial",
+      "output_directory": "bandwidth_explainability/outputs/dinov2/lime/9612aaea62a6baea"
+    },
+    {
+      "model": "vit_tiny",
+      "method": "lime",
+      "run_id": "c9be776c7c722699",
+      "completed_images": 45,
+      "expected_images": 45,
+      "status": "complete",
+      "output_directory": "bandwidth_explainability/outputs/vit_tiny/lime/c9be776c7c722699"
+    },
+    {
+      "model": "vmamba",
+      "method": "lime",
+      "run_id": "26e7bb04efbc3d97",
+      "completed_images": 25,
+      "expected_images": 45,
+      "status": "partial",
+      "output_directory": "bandwidth_explainability/outputs/vmamba/lime/26e7bb04efbc3d97"
+    }
+  ]
+}

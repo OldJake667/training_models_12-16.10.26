@@ -1,0 +1,15 @@
+{
+  "model": "VMamba-T",
+  "method": "ImageNet-pretrained frozen backbone and classifier training",
+  "pretrained_checkpoint": "/Users/olzh/Documents/Paper replication/model_reproductions/04_vmamba_pretrained/pretrained/vmamba_tiny_imagenet.pth",
+  "checkpoint_scope": "classification head only",
+  "epochs": 20,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "training_images": 176,
+  "validation_images": 45,
+  "test_images": 0,
+  "trainable_parameters": 1538,
+  "total_parameters": 29481602,
+  "device": "mps"
+}

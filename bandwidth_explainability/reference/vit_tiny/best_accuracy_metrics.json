@@ -1,0 +1,31 @@
+{
+  "validation_loss": 0.2804953310224745,
+  "validation_accuracy": 0.9555555555555556,
+  "correct_predictions": 43,
+  "incorrect_predictions": 2,
+  "prediction_count": 45,
+  "confusion_matrix": [
+    [
+      22,
+      2
+    ],
+    [
+      0,
+      21
+    ]
+  ],
+  "Low": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9565217391304348,
+    "support": 24.0
+  },
+  "High": {
+    "precision": 0.9130434782608695,
+    "recall": 1.0,
+    "f1-score": 0.9545454545454546,
+    "support": 21.0
+  },
+  "macro_f1": 0.9555335968379447,
+  "weighted_f1": 0.9555994729907774
+}

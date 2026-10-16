@@ -1,0 +1,11 @@
+{
+  "architecture": "ScratchCNN",
+  "total_parameters": 14838658,
+  "trainable_parameters": 14838658,
+  "training_mode": "all_layers",
+  "physical_batch_size": 32,
+  "effective_batch_size": 128,
+  "input_size": 256,
+  "input_channels": 1,
+  "pretrained": false
+}

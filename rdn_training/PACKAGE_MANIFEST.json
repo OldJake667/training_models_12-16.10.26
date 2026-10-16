@@ -1,0 +1,149 @@
+{
+  "package": "Full RDN CUDA notebooks",
+  "training_executed": false,
+  "records": 111000,
+  "split": {
+    "train": 97200,
+    "validation": 10800,
+    "test": 3000
+  },
+  "target": "compact response first argmax >= 83",
+  "files": {
+    "MODEL_CONFIGS.json": {
+      "bytes": 6680,
+      "sha256": "c55b90658eb29decc48e18200cee0315188d87233b945c13b8e02034f8c3798b"
+    },
+    "START_HERE.md": {
+      "bytes": 10091,
+      "sha256": "3db0f3298a5e05ef64af7ee86e36088379122643de1da8eb9d1704f1b5a6655f"
+    },
+    "VERIFICATION.json": {
+      "bytes": 4638,
+      "sha256": "e3d32a8fcc8438d02695554f73f24c93f53f72e571d5ed935a2d6c93172fb970"
+    },
+    "data/dataset_summary.json": {
+      "bytes": 3608,
+      "sha256": "cb6a086723747054ca5b8a6d74c6c561158062988690ffce570bc5c4726800e7"
+    },
+    "data/full_manifest.csv": {
+      "bytes": 12503077,
+      "sha256": "8b70f0ba4d746e9f504dd89ee03984602f725bfa9e3f359a1e82b46a9f2b0652"
+    },
+    "data/images.npy": {
+      "bytes": 28416128,
+      "sha256": "4d9705401d6c2ca8c62da145506d5c2839c8a7285afd098b9c2fd575510df4da"
+    },
+    "data/labels.npy": {
+      "bytes": 888128,
+      "sha256": "8f58d927ca4199d703f6e8ada05597a86c50d86126c40ff94e878f7e58239638"
+    },
+    "data/raw/sutd_rdn128.zip": {
+      "bytes": 51499490,
+      "sha256": "e6789ec3664e94a77b17aa44e555b4a2224ffd71c5d23ead7faa89262db12772"
+    },
+    "data/source_dataset_summary.json": {
+      "bytes": 3323,
+      "sha256": "78b307a3433a30ac33696cd715361899b653780292e9f6a858a503ffaf728696"
+    },
+    "data/spectra.npy": {
+      "bytes": 56832128,
+      "sha256": "87168b2152ee172511a28da89648dec7366dece8e03310f91324a690819f62c9"
+    },
+    "lab_code/__init__.py": {
+      "bytes": 87,
+      "sha256": "da4bee4a918c42169b16c1ba4bd45bd506122d291df8201de4aaeda3e2aa805c"
+    },
+    "lab_code/model_builders.py": {
+      "bytes": 3315,
+      "sha256": "4e4a65af1de194dcaf639a5a957204e375e3b89badb94198459ebca953601afd"
+    },
+    "lab_code/runtime.py": {
+      "bytes": 32393,
+      "sha256": "94fa7cb4a546b150cd2df58663c854a6f8865520a58f9d765c72ea5f2980f52b"
+    },
+    "lab_code/scratch_models.py": {
+      "bytes": 3883,
+      "sha256": "c9df4434609e990e80e95664bd99d41884782ac49e2478773a3db06152282058"
+    },
+    "lab_code/vmamba_official.py": {
+      "bytes": 104155,
+      "sha256": "1c0714169f785df1c563693f2ede4535870329d95a822c9335131b7dfab9c17a"
+    },
+    "licenses/VMamba_LICENSE.txt": {
+      "bytes": 1066,
+      "sha256": "fb8d4c2d5c5bc007e3176259bde6647bbb2a7a017eaab52f4a86e44d86c61076"
+    },
+    "notebooks/00_environment_and_data_check.ipynb": {
+      "bytes": 5904,
+      "sha256": "e2f470b5877e5edc382339c8ac0cd612de76cd29e177280a8013afe32fcaa737"
+    },
+    "notebooks/01_cnn.ipynb": {
+      "bytes": 30930,
+      "sha256": "e76e0ea6b5652cd9a09e3363ab20f79379e5f3808474095d1d8cce4b3eb69921"
+    },
+    "notebooks/02_vit_tiny.ipynb": {
+      "bytes": 34113,
+      "sha256": "e520a60e9ac9d647cbdc7943f344ac6d22141b6461ae15f1168d56e88896bf3e"
+    },
+    "notebooks/03_resnet50.ipynb": {
+      "bytes": 30472,
+      "sha256": "ce6f43883d13b935b363d16cd32f1c98ea0ac5b9227d64a2f7e8261c906c5fd6"
+    },
+    "notebooks/04_resnet101.ipynb": {
+      "bytes": 30493,
+      "sha256": "d48a9c190f31dab6ad19f21c70bc30e7dbda9b3231edd66c7c7b975b32e36cd3"
+    },
+    "notebooks/05_resnet152.ipynb": {
+      "bytes": 30468,
+      "sha256": "e2f0dbe1684af740755b4f371d0dd80aea604352fdbe8426dfc8a76571e3b780"
+    },
+    "notebooks/06_vit_small.ipynb": {
+      "bytes": 30494,
+      "sha256": "475d6e22e5ba4e58cc65a9d1608f7587804d88bb832e4163f5ac8bb1384bdc4d"
+    },
+    "notebooks/07_vit_base.ipynb": {
+      "bytes": 30490,
+      "sha256": "34fd73ff7ccf1c1ed1d3a2520218a5246f8dd9ee6ee8777ce4522f305cb509fe"
+    },
+    "notebooks/08_vit_large.ipynb": {
+      "bytes": 30585,
+      "sha256": "dcc74e1ea6b84cde0e0f7b3edc21869de6f6f81d5ed14d525ed2f86b094bda21"
+    },
+    "notebooks/09_dinov2.ipynb": {
+      "bytes": 32238,
+      "sha256": "c00404d861260086bdd5ace63d15b65a88c429a93ad6cfb9fc6ee51dab69eb4a"
+    },
+    "notebooks/10_vmamba.ipynb": {
+      "bytes": 33321,
+      "sha256": "5c59b09f8f4dc60db930fff6b3922618b32a18f707219eb14accea2a8b5ce221"
+    },
+    "pretrained/README.md": {
+      "bytes": 1368,
+      "sha256": "cd417b3c1234ac0bf8aca3ac891cac8bab424d0bc4b86477e7a1b9460203e776"
+    },
+    "pretrained/dinov2_small.safetensors": {
+      "bytes": 88240510,
+      "sha256": "04d27f3400d059fc0cfd7d17dd1909a75bf3ea8fb3eeb48b97cb99e57ee20081"
+    },
+    "pretrained/vmamba_tiny_imagenet.pth": {
+      "bytes": 121094026,
+      "sha256": "d855b57224a652bc692804932f88dc3a39b9028e64be99f745a7fd6792ca672a"
+    },
+    "requirements.txt": {
+      "bytes": 403,
+      "sha256": "95ab5b52a742343efefa8f8e70431028d94503322134ba2c641b1e654ec05881"
+    },
+    "tools/build_notebooks.py": {
+      "bytes": 19643,
+      "sha256": "2c529268c8236b177db99f2b49482801be703f482dad5e29c8f1dea9d7bebfd4"
+    },
+    "tools/verify_without_training.py": {
+      "bytes": 10695,
+      "sha256": "949c0ddbcdcfc3f6cdec50f98e8a0ac79bcb354f3c198a08c3d26e862f1f2411"
+    }
+  },
+  "source_dataset_folder": "sutd_prcm_experiment",
+  "vmamba_source_repository": "https://github.com/MzeroMiko/VMamba",
+  "dinov2_weight_repository": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m",
+  "verification": "VERIFICATION.json; no model training performed"
+}

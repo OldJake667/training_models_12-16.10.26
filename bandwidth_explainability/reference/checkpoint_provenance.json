@@ -1,0 +1,18 @@
+{
+  "cnn": {
+    "source_checkpoint": "model_reproductions/01_cnn_from_scratch/results_from_scratch/best_validation_accuracy.pth",
+    "checkpoint_scope": "full model"
+  },
+  "vit_tiny": {
+    "source_checkpoint": "model_reproductions/02_vit_tiny_from_scratch/results_from_scratch/best_validation_accuracy.pth",
+    "checkpoint_scope": "full model"
+  },
+  "dinov2": {
+    "source_checkpoint": "model_reproductions/03_dinov2_pretrained/results_pretrained/best_validation_accuracy.pth",
+    "checkpoint_scope": "full model"
+  },
+  "vmamba": {
+    "source_checkpoint": "model_reproductions/04_vmamba_pretrained/results_pretrained/best_validation_accuracy.pth",
+    "checkpoint_scope": "head only; separate ImageNet backbone included"
+  }
+}

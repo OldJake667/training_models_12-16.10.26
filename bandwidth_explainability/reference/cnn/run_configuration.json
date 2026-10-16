@@ -1,0 +1,17 @@
+{
+  "model": "three-block CNN",
+  "initialization": "random",
+  "framework": "PyTorch",
+  "image_size": 256,
+  "epochs": 20,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "seed": 42,
+  "training_images": 176,
+  "validation_images": 45,
+  "test_images": 0,
+  "trainable_parameters": 14838658,
+  "total_parameters": 14838658,
+  "device": "mps"
+}

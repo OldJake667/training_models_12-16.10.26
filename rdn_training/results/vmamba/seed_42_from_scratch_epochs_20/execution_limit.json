@@ -1,0 +1,5 @@
+{
+  "stop_after_epoch": 5,
+  "original_epoch_budget": 20,
+  "resume_schedule_preserved": true
+}

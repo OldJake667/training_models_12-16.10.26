@@ -1,0 +1,52 @@
+{
+  "environment": {
+    "python": "3.12.15",
+    "system": "Linux",
+    "versions": {
+      "torch": "2.12.0+cu130",
+      "torchvision": "0.27.0+cu130",
+      "timm": "1.0.20",
+      "lime": "0.2.0.1",
+      "scikit-image": "0.25.2",
+      "numpy": "2.5.2",
+      "scikit-learn": "1.9.1",
+      "Pillow": "12.3.0"
+    },
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+  },
+  "models": {
+    "cnn": {
+      "correct": 44,
+      "total": 45,
+      "archived_correct": 44,
+      "changed_predictions": [],
+      "maximum_probability_difference": 1.7881393432617188e-07,
+      "allow_prediction_differences": false
+    },
+    "vit_tiny": {
+      "correct": 43,
+      "total": 45,
+      "archived_correct": 43,
+      "changed_predictions": [],
+      "maximum_probability_difference": 1.0728836059570312e-06,
+      "allow_prediction_differences": false
+    },
+    "dinov2": {
+      "correct": 43,
+      "total": 45,
+      "archived_correct": 43,
+      "changed_predictions": [],
+      "maximum_probability_difference": 8.404254913330078e-06,
+      "allow_prediction_differences": false
+    },
+    "vmamba": {
+      "correct": 44,
+      "total": 45,
+      "archived_correct": 44,
+      "changed_predictions": [],
+      "maximum_probability_difference": 1.6093254089355469e-06,
+      "allow_prediction_differences": false
+    }
+  }
+}

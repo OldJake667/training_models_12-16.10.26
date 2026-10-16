@@ -1,0 +1,49 @@
+{
+  "records": 3000,
+  "loss": 0.6926719889640808,
+  "accuracy": 0.5156666666666667,
+  "balanced_accuracy": 0.5,
+  "macro_f1": 0.34022432372993183,
+  "roc_auc": 0.49879681874337967,
+  "confusion_matrix": [
+    [
+      0,
+      1453
+    ],
+    [
+      0,
+      1547
+    ]
+  ],
+  "classification_report": {
+    "PeakBelow83": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1453.0
+    },
+    "PeakAtOrAbove83": {
+      "precision": 0.5156666666666667,
+      "recall": 1.0,
+      "f1-score": 0.6804486474598637,
+      "support": 1547.0
+    },
+    "accuracy": 0.5156666666666667,
+    "macro avg": {
+      "precision": 0.25783333333333336,
+      "recall": 0.5,
+      "f1-score": 0.34022432372993183,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 0.2659121111111111,
+      "recall": 0.5156666666666667,
+      "f1-score": 0.35088468587346966,
+      "support": 3000.0
+    }
+  },
+  "training_majority_label": 1,
+  "training_selected_majority_baseline_accuracy": 0.5156666666666667,
+  "selected_epoch": 5,
+  "checkpoint_sha256": "e370f739db1b0f6f1239759101b344dc8c718ba669c15b1618b28dbf5c535ddf"
+}

@@ -1,0 +1,23 @@
+{
+  "file": "M190_log-20241114-212937.bmp",
+  "true_label": 0,
+  "predicted_label": 0,
+  "probability_low": 0.9888701438903809,
+  "probability_high": 0.011129909195005894,
+  "correct": true,
+  "archived_prediction": 0,
+  "prediction_changed": false,
+  "max_probability_difference": 5.587935447692871e-09,
+  "segment_count": 72,
+  "seed": 2984209157,
+  "local_weighted_r2": 0.5505113682585827,
+  "local_surrogate_prediction": 0.9927233801283449,
+  "surrogate_intercept": 1.0021435479335985,
+  "positive_segment_count": 29,
+  "selected_positive_segment_count": 29,
+  "positive_pixel_fraction": 0.4058475734791524,
+  "method": "lime",
+  "explained_class": 0,
+  "native_width": 770,
+  "native_height": 760
+}

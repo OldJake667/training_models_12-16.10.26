@@ -1,0 +1,11 @@
+{
+  "architecture": "vmamba_tiny_s1l8",
+  "total_parameters": 29481602,
+  "trainable_parameters": 29481602,
+  "training_mode": "from_scratch",
+  "physical_batch_size": 4,
+  "effective_batch_size": 128,
+  "input_size": 224,
+  "input_channels": 3,
+  "pretrained": false
+}

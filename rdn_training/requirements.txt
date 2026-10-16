@@ -1,0 +1,16 @@
+# Install the CUDA-enabled torch and torchvision pair FIRST; see START_HERE.md.
+# The following is the notebook/model toolchain. VMamba's optional kernel is separate.
+timm==1.0.20
+numpy>=1.26,<3
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+Pillow>=10,<13
+tqdm>=4.66,<5
+safetensors>=0.4,<1
+einops>=0.7,<1
+fvcore==0.1.5.post20221221
+packaging>=24
+ninja>=1.11
+nbformat>=5.10,<6
+jupyterlab>=4,<5
+ipykernel>=6,<8

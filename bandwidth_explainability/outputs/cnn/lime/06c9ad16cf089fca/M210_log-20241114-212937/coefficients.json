@@ -1,0 +1,317 @@
+{
+  "explained_class": 0,
+  "segments": [
+    {
+      "segment_id": 0,
+      "coefficient": 0.0021696635521948338
+    },
+    {
+      "segment_id": 1,
+      "coefficient": 7.33851338736713e-05
+    },
+    {
+      "segment_id": 2,
+      "coefficient": 0.002024611458182335
+    },
+    {
+      "segment_id": 3,
+      "coefficient": 0.00012728628644254059
+    },
+    {
+      "segment_id": 4,
+      "coefficient": 0.000647288397885859
+    },
+    {
+      "segment_id": 5,
+      "coefficient": -0.00024113447580020875
+    },
+    {
+      "segment_id": 6,
+      "coefficient": 0.0001991191238630563
+    },
+    {
+      "segment_id": 7,
+      "coefficient": 0.00032984858262352645
+    },
+    {
+      "segment_id": 8,
+      "coefficient": -0.00019503863586578518
+    },
+    {
+      "segment_id": 9,
+      "coefficient": 0.0023972592316567898
+    },
+    {
+      "segment_id": 10,
+      "coefficient": 0.0013317058328539133
+    },
+    {
+      "segment_id": 11,
+      "coefficient": -0.0009925684425979853
+    },
+    {
+      "segment_id": 12,
+      "coefficient": 0.0006654955795966089
+    },
+    {
+      "segment_id": 13,
+      "coefficient": -0.0002967701875604689
+    },
+    {
+      "segment_id": 14,
+      "coefficient": -4.4154141505714506e-05
+    },
+    {
+      "segment_id": 15,
+      "coefficient": 0.00029741303296759725
+    },
+    {
+      "segment_id": 16,
+      "coefficient": -0.00015794743376318365
+    },
+    {
+      "segment_id": 17,
+      "coefficient": -0.00019042623171117157
+    },
+    {
+      "segment_id": 18,
+      "coefficient": 0.0007902330253273249
+    },
+    {
+      "segment_id": 19,
+      "coefficient": -0.0007613325724378228
+    },
+    {
+      "segment_id": 20,
+      "coefficient": 0.0021151837427169085
+    },
+    {
+      "segment_id": 21,
+      "coefficient": 0.0002509743790142238
+    },
+    {
+      "segment_id": 22,
+      "coefficient": 0.0013034853618592024
+    },
+    {
+      "segment_id": 23,
+      "coefficient": 0.00029534866916947067
+    },
+    {
+      "segment_id": 24,
+      "coefficient": -0.0002160293806809932
+    },
+    {
+      "segment_id": 25,
+      "coefficient": 0.000348333443980664
+    },
+    {
+      "segment_id": 26,
+      "coefficient": 6.33698800811544e-05
+    },
+    {
+      "segment_id": 27,
+      "coefficient": 0.0005053673521615565
+    },
+    {
+      "segment_id": 28,
+      "coefficient": 0.0004572089237626642
+    },
+    {
+      "segment_id": 29,
+      "coefficient": 0.0007600010139867663
+    },
+    {
+      "segment_id": 30,
+      "coefficient": -0.00039932108484208584
+    },
+    {
+      "segment_id": 31,
+      "coefficient": -0.00017822481459006667
+    },
+    {
+      "segment_id": 32,
+      "coefficient": 0.00010208465391770005
+    },
+    {
+      "segment_id": 33,
+      "coefficient": 0.00013511627912521362
+    },
+    {
+      "segment_id": 34,
+      "coefficient": 6.2520834944734816e-06
+    },
+    {
+      "segment_id": 35,
+      "coefficient": 0.00012681125372182578
+    },
+    {
+      "segment_id": 36,
+      "coefficient": 0.0006296305218711495
+    },
+    {
+      "segment_id": 37,
+      "coefficient": 0.0001349691447103396
+    },
+    {
+      "segment_id": 38,
+      "coefficient": 0.0011663910700008273
+    },
+    {
+      "segment_id": 39,
+      "coefficient": 0.0005266909720376134
+    },
+    {
+      "segment_id": 40,
+      "coefficient": -0.00048124606837518513
+    },
+    {
+      "segment_id": 41,
+      "coefficient": -0.00016353226965293288
+    },
+    {
+      "segment_id": 42,
+      "coefficient": 0.00024439714616164565
+    },
+    {
+      "segment_id": 43,
+      "coefficient": -0.0009774176869541407
+    },
+    {
+      "segment_id": 44,
+      "coefficient": 0.00011345304665155709
+    },
+    {
+      "segment_id": 45,
+      "coefficient": 0.002697806339710951
+    },
+    {
+      "segment_id": 46,
+      "coefficient": 0.0002737021422944963
+    },
+    {
+      "segment_id": 47,
+      "coefficient": 0.00044272595550864935
+    },
+    {
+      "segment_id": 48,
+      "coefficient": -0.00028177135391160846
+    },
+    {
+      "segment_id": 49,
+      "coefficient": -0.00019010613323189318
+    },
+    {
+      "segment_id": 50,
+      "coefficient": 0.0002818950451910496
+    },
+    {
+      "segment_id": 51,
+      "coefficient": 0.00014588492922484875
+    },
+    {
+      "segment_id": 52,
+      "coefficient": -0.00078056869097054
+    },
+    {
+      "segment_id": 53,
+      "coefficient": -0.00022349698701873422
+    },
+    {
+      "segment_id": 54,
+      "coefficient": -0.0001405997754773125
+    },
+    {
+      "segment_id": 55,
+      "coefficient": 0.0019398542353883386
+    },
+    {
+      "segment_id": 56,
+      "coefficient": -0.0006131586851552129
+    },
+    {
+      "segment_id": 57,
+      "coefficient": -9.855884127318859e-05
+    },
+    {
+      "segment_id": 58,
+      "coefficient": -0.0002761464274954051
+    },
+    {
+      "segment_id": 59,
+      "coefficient": 0.0007163750124163926
+    },
+    {
+      "segment_id": 60,
+      "coefficient": 0.00017889839364215732
+    },
+    {
+      "segment_id": 61,
+      "coefficient": 0.0001127897048718296
+    },
+    {
+      "segment_id": 62,
+      "coefficient": 0.00029830029234290123
+    },
+    {
+      "segment_id": 63,
+      "coefficient": -0.0001377208682242781
+    },
+    {
+      "segment_id": 64,
+      "coefficient": 4.056745456182398e-05
+    },
+    {
+      "segment_id": 65,
+      "coefficient": 0.0006269009900279343
+    },
+    {
+      "segment_id": 66,
+      "coefficient": 0.00037106251693330705
+    },
+    {
+      "segment_id": 67,
+      "coefficient": -0.0008400689694099128
+    },
+    {
+      "segment_id": 68,
+      "coefficient": 0.002588889794424176
+    },
+    {
+      "segment_id": 69,
+      "coefficient": 0.002076413482427597
+    },
+    {
+      "segment_id": 70,
+      "coefficient": 0.00023788154067005962
+    },
+    {
+      "segment_id": 71,
+      "coefficient": -0.00015257037011906505
+    },
+    {
+      "segment_id": 72,
+      "coefficient": -0.00010289149940945208
+    },
+    {
+      "segment_id": 73,
+      "coefficient": 0.00032077415380626917
+    },
+    {
+      "segment_id": 74,
+      "coefficient": -0.0006445100298151374
+    },
+    {
+      "segment_id": 75,
+      "coefficient": 0.0001418853789800778
+    },
+    {
+      "segment_id": 76,
+      "coefficient": -0.00012076016719220206
+    },
+    {
+      "segment_id": 77,
+      "coefficient": -0.00015011939103715122
+    }
+  ]
+}

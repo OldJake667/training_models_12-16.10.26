@@ -1,0 +1,40 @@
+{
+  "config": {
+    "seed": 42,
+    "max_epochs": 20,
+    "early_stopping_patience": 20,
+    "minimum_improvement": 0.0,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.05,
+    "label_smoothing": 0.0,
+    "warmup_epochs": 5,
+    "minimum_lr_ratio": 0.01,
+    "gradient_clip_norm": 1.0,
+    "precision": "bf16",
+    "num_workers": 0,
+    "resume": true,
+    "image_size": 224,
+    "channels": 3,
+    "normalization": "half",
+    "train_backbone": true,
+    "require_fast_vmamba": true,
+    "batch_size": 8,
+    "accumulation_steps": 16,
+    "feature_batch_size": 32,
+    "model": "vit_large",
+    "architecture": "vit_large_patch16_224"
+  },
+  "data": {
+    "data/images.npy": "4d9705401d6c2ca8c62da145506d5c2839c8a7285afd098b9c2fd575510df4da",
+    "data/labels.npy": "8f58d927ca4199d703f6e8ada05597a86c50d86126c40ff94e878f7e58239638",
+    "data/spectra.npy": "87168b2152ee172511a28da89648dec7366dece8e03310f91324a690819f62c9",
+    "data/full_manifest.csv": "8b70f0ba4d746e9f504dd89ee03984602f725bfa9e3f359a1e82b46a9f2b0652",
+    "target": "compact_response_argmax_ge_83_first_maximum",
+    "support_code_sha256": {
+      "runtime.py": "94fa7cb4a546b150cd2df58663c854a6f8865520a58f9d765c72ea5f2980f52b",
+      "scratch_models.py": "c9df4434609e990e80e95664bd99d41884782ac49e2478773a3db06152282058",
+      "model_builders.py": "4e4a65af1de194dcaf639a5a957204e375e3b89badb94198459ebca953601afd"
+    }
+  }
+}
