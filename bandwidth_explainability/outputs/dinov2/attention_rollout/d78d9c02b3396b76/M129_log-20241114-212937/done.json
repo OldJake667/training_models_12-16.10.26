@@ -1,0 +1,18 @@
+{
+  "file": "M129_log-20241114-212937.bmp",
+  "true_label": 0,
+  "predicted_label": 0,
+  "probability_low": 0.9539667367935181,
+  "probability_high": 0.046033281832933426,
+  "correct": true,
+  "archived_prediction": 0,
+  "prediction_changed": false,
+  "max_probability_difference": 8.940696716308594e-07,
+  "method": "attention_rollout",
+  "class_specific": false,
+  "head_fusion": "mean",
+  "residual": "add identity then row normalize",
+  "patch_rows": 16,
+  "patch_columns": 16,
+  "attention_capture_probability_difference": 5.364418029785156e-07
+}

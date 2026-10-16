@@ -1,0 +1,18 @@
+{
+  "file": "M25_log-20241114-212937.bmp",
+  "true_label": 0,
+  "predicted_label": 0,
+  "probability_low": 0.9303653836250305,
+  "probability_high": 0.06963461637496948,
+  "correct": true,
+  "archived_prediction": 0,
+  "prediction_changed": false,
+  "max_probability_difference": 4.470348358154297e-08,
+  "method": "attention_rollout",
+  "class_specific": false,
+  "head_fusion": "mean",
+  "residual": "add identity then row normalize",
+  "patch_rows": 14,
+  "patch_columns": 14,
+  "attention_capture_probability_difference": 0.0
+}

@@ -1,0 +1,23 @@
+{
+  "file": "M283_log-20241114-212937.bmp",
+  "true_label": 1,
+  "predicted_label": 1,
+  "probability_low": 0.027598025277256966,
+  "probability_high": 0.9724019169807434,
+  "correct": true,
+  "archived_prediction": 1,
+  "prediction_changed": false,
+  "max_probability_difference": 1.0244548320770264e-07,
+  "segment_count": 67,
+  "seed": 1345736925,
+  "local_weighted_r2": 0.7688438442780646,
+  "local_surrogate_prediction": 0.8534239325830224,
+  "surrogate_intercept": -0.4222521036534395,
+  "positive_segment_count": 38,
+  "selected_positive_segment_count": 38,
+  "positive_pixel_fraction": 0.58911995898838,
+  "method": "lime",
+  "explained_class": 1,
+  "native_width": 770,
+  "native_height": 760
+}

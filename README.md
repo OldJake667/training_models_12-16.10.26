@@ -1,6 +1,6 @@
 # Model training and explainability results — 12–16 October 2026
 
-Snapshot: 2026-10-16T07:11:54.117004+00:00
+Snapshot: 2026-10-16T07:41:56.754573+00:00
 
 This repository records two separate experiments. Their datasets, labels, checkpoints, and accuracy measurements must be kept distinct.
 
@@ -35,11 +35,15 @@ All four GPU prediction audits reproduce the archived class predictions: CNN 44/
 | Model | Method | Images complete | Status |
 |---|---|---:|---|
 | cnn | lime | 45/45 | complete |
-| dinov2 | lime | 29/45 | partial |
+| dinov2 | attention_rollout | 45/45 | complete |
+| dinov2 | gradient_attention_rollout | 45/45 | complete |
+| dinov2 | lime | 45/45 | complete |
+| vit_tiny | attention_rollout | 45/45 | complete |
+| vit_tiny | gradient_attention_rollout | 45/45 | complete |
 | vit_tiny | lime | 45/45 | complete |
-| vmamba | lime | 25/45 | partial |
+| vmamba | lime | 45/45 | complete |
 
-The table is a snapshot of completed per-image artifacts at upload time. Partial runs are unfinished, not missing successes. Attention rollout and gradient attention rollout notebooks are included; no completed rollout output folders were present in this snapshot.
+All eight explanation runs are complete, with 45 validation images per run (360 image-method results). This includes LIME for all four models, plus attention rollout and gradient attention rollout for ViT-Tiny and DINOv2. Each run includes its per-image outputs, summary, prediction audit, and class mean maps. Gradient rollout includes separate Low- and High-class targets.
 
 LIME uses 1,000 perturbations per image, native-resolution SLIC regions, white masking, and the predicted class as its target. Outputs include figures, signed coefficients, raw maps, per-image metadata, prediction audits, and available class means. A completed image is included only when its `done.json` marker exists. See [`output_status.json`](bandwidth_explainability/output_status.json) and [`outputs`](bandwidth_explainability/outputs).
 

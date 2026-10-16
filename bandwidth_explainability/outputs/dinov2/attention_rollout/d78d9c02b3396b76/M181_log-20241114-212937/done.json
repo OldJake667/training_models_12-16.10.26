@@ -1,0 +1,18 @@
+{
+  "file": "M181_log-20241114-212937.bmp",
+  "true_label": 0,
+  "predicted_label": 0,
+  "probability_low": 0.9871047735214233,
+  "probability_high": 0.012895161285996437,
+  "correct": true,
+  "archived_prediction": 0,
+  "prediction_changed": false,
+  "max_probability_difference": 5.960464477539062e-07,
+  "method": "attention_rollout",
+  "class_specific": false,
+  "head_fusion": "mean",
+  "residual": "add identity then row normalize",
+  "patch_rows": 16,
+  "patch_columns": 16,
+  "attention_capture_probability_difference": 0.0
+}

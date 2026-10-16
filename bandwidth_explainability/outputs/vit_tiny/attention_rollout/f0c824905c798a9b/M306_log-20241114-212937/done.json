@@ -1,0 +1,18 @@
+{
+  "file": "M306_log-20241114-212937.bmp",
+  "true_label": 1,
+  "predicted_label": 1,
+  "probability_low": 0.11901593953371048,
+  "probability_high": 0.8809840679168701,
+  "correct": true,
+  "archived_prediction": 1,
+  "prediction_changed": false,
+  "max_probability_difference": 5.960464477539063e-08,
+  "method": "attention_rollout",
+  "class_specific": false,
+  "head_fusion": "mean",
+  "residual": "add identity then row normalize",
+  "patch_rows": 14,
+  "patch_columns": 14,
+  "attention_capture_probability_difference": 5.960464477539063e-08
+}

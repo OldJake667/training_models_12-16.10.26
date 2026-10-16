@@ -1,0 +1,18 @@
+{
+  "file": "M178_log-20241114-212937.bmp",
+  "true_label": 1,
+  "predicted_label": 1,
+  "probability_low": 0.386077344417572,
+  "probability_high": 0.6139225959777832,
+  "correct": true,
+  "archived_prediction": 1,
+  "prediction_changed": false,
+  "max_probability_difference": 5.364418029785156e-07,
+  "method": "attention_rollout",
+  "class_specific": false,
+  "head_fusion": "mean",
+  "residual": "add identity then row normalize",
+  "patch_rows": 14,
+  "patch_columns": 14,
+  "attention_capture_probability_difference": 3.2782554626464844e-07
+}

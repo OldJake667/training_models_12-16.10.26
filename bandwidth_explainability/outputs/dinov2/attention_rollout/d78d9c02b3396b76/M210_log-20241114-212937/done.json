@@ -1,0 +1,18 @@
+{
+  "file": "M210_log-20241114-212937.bmp",
+  "true_label": 0,
+  "predicted_label": 0,
+  "probability_low": 0.9219279885292053,
+  "probability_high": 0.07807201892137527,
+  "correct": true,
+  "archived_prediction": 0,
+  "prediction_changed": false,
+  "max_probability_difference": 1.735985279083252e-06,
+  "method": "attention_rollout",
+  "class_specific": false,
+  "head_fusion": "mean",
+  "residual": "add identity then row normalize",
+  "patch_rows": 16,
+  "patch_columns": 16,
+  "attention_capture_probability_difference": 7.525086402893066e-07
+}

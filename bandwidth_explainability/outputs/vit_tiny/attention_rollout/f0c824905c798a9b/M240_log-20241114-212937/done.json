@@ -1,0 +1,18 @@
+{
+  "file": "M240_log-20241114-212937.bmp",
+  "true_label": 0,
+  "predicted_label": 0,
+  "probability_low": 0.8806358575820923,
+  "probability_high": 0.1193641796708107,
+  "correct": true,
+  "archived_prediction": 0,
+  "prediction_changed": false,
+  "max_probability_difference": 2.682209014892578e-07,
+  "method": "attention_rollout",
+  "class_specific": false,
+  "head_fusion": "mean",
+  "residual": "add identity then row normalize",
+  "patch_rows": 14,
+  "patch_columns": 14,
+  "attention_capture_probability_difference": 1.6391277313232422e-07
+}

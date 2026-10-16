@@ -1,0 +1,33 @@
+{
+  "target_class": 0,
+  "grouped_by": "predicted",
+  "group_class": 1,
+  "includes_errors": true,
+  "image_count": 23,
+  "files": [
+    "M10_log-20241114-212937.bmp",
+    "M11_log-20241114-212937.bmp",
+    "M136_log-20241114-212937.bmp",
+    "M149_log-20241114-212937.bmp",
+    "M154_log-20241114-212937.bmp",
+    "M162_log-20241114-212937.bmp",
+    "M177_log-20241114-212937.bmp",
+    "M178_log-20241114-212937.bmp",
+    "M179_log-20241114-212937.bmp",
+    "M187_log-20241114-212937.bmp",
+    "M1_log-20241114-212937.bmp",
+    "M22_log-20241114-212937.bmp",
+    "M238_log-20241114-212937.bmp",
+    "M253_log-20241114-212937.bmp",
+    "M283_log-20241114-212937.bmp",
+    "M2_log-20241114-212937.bmp",
+    "M303_log-20241114-212937.bmp",
+    "M306_log-20241114-212937.bmp",
+    "M31_log-20241114-212937.bmp",
+    "M47_log-20241114-212937.bmp",
+    "M65_log-20241114-212937.bmp",
+    "M93_log-20241114-212937.bmp",
+    "M95_log-20241114-212937.bmp"
+  ],
+  "definition": "mean separately maximum-normalized target-logit gradient rollout"
+}

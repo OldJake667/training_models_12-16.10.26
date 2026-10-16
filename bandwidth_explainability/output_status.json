@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-16T07:11:54.117004+00:00",
+  "snapshot_utc": "2026-10-16T07:41:56.754573+00:00",
   "runs": [
     {
       "model": "cnn",
@@ -12,12 +12,48 @@
     },
     {
       "model": "dinov2",
+      "method": "attention_rollout",
+      "run_id": "d78d9c02b3396b76",
+      "completed_images": 45,
+      "expected_images": 45,
+      "status": "complete",
+      "output_directory": "bandwidth_explainability/outputs/dinov2/attention_rollout/d78d9c02b3396b76"
+    },
+    {
+      "model": "dinov2",
+      "method": "gradient_attention_rollout",
+      "run_id": "ca8d0aaa63f71395",
+      "completed_images": 45,
+      "expected_images": 45,
+      "status": "complete",
+      "output_directory": "bandwidth_explainability/outputs/dinov2/gradient_attention_rollout/ca8d0aaa63f71395"
+    },
+    {
+      "model": "dinov2",
       "method": "lime",
       "run_id": "9612aaea62a6baea",
-      "completed_images": 29,
+      "completed_images": 45,
       "expected_images": 45,
-      "status": "partial",
+      "status": "complete",
       "output_directory": "bandwidth_explainability/outputs/dinov2/lime/9612aaea62a6baea"
+    },
+    {
+      "model": "vit_tiny",
+      "method": "attention_rollout",
+      "run_id": "f0c824905c798a9b",
+      "completed_images": 45,
+      "expected_images": 45,
+      "status": "complete",
+      "output_directory": "bandwidth_explainability/outputs/vit_tiny/attention_rollout/f0c824905c798a9b"
+    },
+    {
+      "model": "vit_tiny",
+      "method": "gradient_attention_rollout",
+      "run_id": "239957f0f012474d",
+      "completed_images": 45,
+      "expected_images": 45,
+      "status": "complete",
+      "output_directory": "bandwidth_explainability/outputs/vit_tiny/gradient_attention_rollout/239957f0f012474d"
     },
     {
       "model": "vit_tiny",
@@ -32,9 +68,9 @@
       "model": "vmamba",
       "method": "lime",
       "run_id": "26e7bb04efbc3d97",
-      "completed_images": 25,
+      "completed_images": 45,
       "expected_images": 45,
-      "status": "partial",
+      "status": "complete",
       "output_directory": "bandwidth_explainability/outputs/vmamba/lime/26e7bb04efbc3d97"
     }
   ]

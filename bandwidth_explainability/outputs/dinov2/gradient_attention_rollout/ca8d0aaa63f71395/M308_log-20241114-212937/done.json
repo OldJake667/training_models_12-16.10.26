@@ -1,0 +1,22 @@
+{
+  "file": "M308_log-20241114-212937.bmp",
+  "true_label": 0,
+  "predicted_label": 0,
+  "probability_low": 0.9952040910720825,
+  "probability_high": 0.004795934073626995,
+  "correct": true,
+  "archived_prediction": 0,
+  "prediction_changed": false,
+  "max_probability_difference": 4.190951585769653e-08,
+  "method": "gradient_attention_rollout",
+  "class_specific": true,
+  "target_score": "pre-softmax class logit",
+  "head_fusion": "mean(A * gradient), then clamp negatives",
+  "attention_capture_probability_difference": 1.3504177331924438e-08,
+  "low_target_logit": 2.347952127456665,
+  "low_empty_positive_map": false,
+  "low_gradient_maximum": 6.56028938293457,
+  "high_target_logit": -2.987230062484741,
+  "high_empty_positive_map": false,
+  "high_gradient_maximum": 6.939032077789307
+}

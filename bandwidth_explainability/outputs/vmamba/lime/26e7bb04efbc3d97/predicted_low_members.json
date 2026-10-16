@@ -1,0 +1,31 @@
+{
+  "grouped_by": "predicted class, including misclassified images",
+  "image_count": 23,
+  "files": [
+    "M0_log-20241114-212937.bmp",
+    "M121_log-20241114-212937.bmp",
+    "M129_log-20241114-212937.bmp",
+    "M142_log-20241114-212937.bmp",
+    "M181_log-20241114-212937.bmp",
+    "M190_log-20241114-212937.bmp",
+    "M196_log-20241114-212937.bmp",
+    "M210_log-20241114-212937.bmp",
+    "M227_log-20241114-212937.bmp",
+    "M240_log-20241114-212937.bmp",
+    "M25_log-20241114-212937.bmp",
+    "M271_log-20241114-212937.bmp",
+    "M281_log-20241114-212937.bmp",
+    "M284_log-20241114-212937.bmp",
+    "M287_log-20241114-212937.bmp",
+    "M308_log-20241114-212937.bmp",
+    "M323_log-20241114-212937.bmp",
+    "M37_log-20241114-212937.bmp",
+    "M3_log-20241114-212937.bmp",
+    "M46_log-20241114-212937.bmp",
+    "M49_log-20241114-212937.bmp",
+    "M88_log-20241114-212937.bmp",
+    "M95_log-20241114-212937.bmp"
+  ],
+  "correct": 23,
+  "map_definition": "positive-mask frequency"
+}

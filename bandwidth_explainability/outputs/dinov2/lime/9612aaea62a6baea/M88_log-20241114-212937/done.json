@@ -1,0 +1,23 @@
+{
+  "file": "M88_log-20241114-212937.bmp",
+  "true_label": 0,
+  "predicted_label": 0,
+  "probability_low": 0.9851130247116089,
+  "probability_high": 0.014887009747326374,
+  "correct": true,
+  "archived_prediction": 0,
+  "prediction_changed": false,
+  "max_probability_difference": 1.6391277313232422e-07,
+  "segment_count": 77,
+  "seed": 2270857935,
+  "local_weighted_r2": 0.44349845792320663,
+  "local_surrogate_prediction": 0.9623567511215376,
+  "surrogate_intercept": 0.9686410084567075,
+  "positive_segment_count": 36,
+  "selected_positive_segment_count": 36,
+  "positive_pixel_fraction": 0.47751367053998633,
+  "method": "lime",
+  "explained_class": 0,
+  "native_width": 770,
+  "native_height": 760
+}

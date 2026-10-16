@@ -1,0 +1,59 @@
+{
+  "model": "dinov2",
+  "method": "attention_rollout",
+  "settings": {
+    "seed": 42,
+    "batch_size": 1,
+    "allow_prediction_differences": false,
+    "head_fusion": "mean",
+    "discard_ratio": 0.0,
+    "residual": "add identity then row normalize",
+    "class_specific": false
+  },
+  "checkpoint": "checkpoints/dinov2_best_accuracy.pth",
+  "checkpoint_sha256": "ae4bfb5d3a6f583254059ab62b0d07baea78d069ec079e76e69dd2435ec9b153",
+  "manifest_sha256": "335bcdd95981d14a203321c9ba6f16224c7df5ee76a54e84126bfc27c8760fdf",
+  "code_sha256": {
+    "__init__.py": "65749c37fb25a12830121d26e2fa8b20aec3706407375fa673882eb1f87e8370",
+    "gradient_rollout.py": "4d4a4301be1f76067109daba491a365757d94618b575466860fe1c059fd826f7",
+    "lime_workflow.py": "6c3dd98b4266e9af9bd4788fc72eccced1d1e051c6ba4e06d91493aba83c4372",
+    "models.py": "f6ed06202910e61255d8ba7c8d9084557f3d85784b572771f88209d31d392e9c",
+    "rollout.py": "51a62684e34f0a11a2b4f68b9524a8ff1e3b01d02063b987093abce67fbb7533",
+    "runtime.py": "e63cfd7f8e51a63e03b082136bf8b21d8fabfe6feec4520c0223debeedb95d40",
+    "scratch_models.py": "c9df4434609e990e80e95664bd99d41884782ac49e2478773a3db06152282058",
+    "vmamba_official.py": "1c0714169f785df1c563693f2ede4535870329d95a822c9335131b7dfab9c17a"
+  },
+  "notebook_source_sha256": {
+    "00_environment_and_checkpoint_check.ipynb": "144785f627ecc75f74cf0c0a2756f26c6200e4a7f97860ccb1ae308f3bddb564",
+    "01_cnn_lime.ipynb": "5f3cd12d6aac5d918e389be5a5fee5dc3ca7943fb5d2a12d84f7c0cdfc248946",
+    "02_vit_tiny_lime.ipynb": "b9397520a88b691a42206ca4ae0d4d7f0b5416eba758075df41c81aef129bc33",
+    "03_dinov2_lime.ipynb": "7513d10460ec4259b4412d6c33147c23c50abbe3026a16b4f6df5589020a71ec",
+    "04_vmamba_lime.ipynb": "1806e67ea5fe3d6a0d79900dfcfdc10809cc061296a74a2708ed731d56d67945",
+    "05_vit_tiny_attention_rollout.ipynb": "75193cd66928ab381b46f33a379e91d780b8d8f0f0dc7e8d0f0a0173b4e1eb1e",
+    "06_dinov2_attention_rollout.ipynb": "2ec426b6bd7847b883eef75036b31cdb380bafd48bbf286ef7e78e7927b1e653",
+    "07_vit_tiny_gradient_attention_rollout.ipynb": "bda6beb39dfa5645a47507d99f89bd27e26264889f0dd072a41bfbbe040b950b",
+    "08_dinov2_gradient_attention_rollout.ipynb": "346da2b5ba476a373676e5639069a4564213adb94b66824e09084de4952148d6"
+  },
+  "environment": {
+    "python": "3.12.15",
+    "system": "Linux",
+    "versions": {
+      "torch": "2.12.0+cu130",
+      "torchvision": "0.27.0+cu130",
+      "timm": "1.0.20",
+      "lime": "0.2.0.1",
+      "scikit-image": "0.25.2",
+      "numpy": "2.5.2",
+      "scikit-learn": "1.9.1",
+      "Pillow": "12.3.0"
+    },
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+  },
+  "device": "cuda",
+  "dataset": "Original bandwidth, 176 training / 45 validation / no test",
+  "classes": {
+    "0": "Low bandwidth",
+    "1": "High bandwidth"
+  }
+}
