@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6043,
-      "sha256": "3c2c41d6a84f26b9e5d547306c9adab5b7254de47e7b7ec45aeaea1092abb859"
+      "bytes": 6405,
+      "sha256": "53260cb7cba28d2c05fd059b9883ab77ad881d424af7e25d8ef0f6903a118dc0"
     },
     {
       "path": "bandwidth_explainability/00_environment_and_checkpoint_check.ipynb",
@@ -10743,8 +10743,8 @@
     },
     {
       "path": "rdn_training/EPOCH_LIMITS.json",
-      "bytes": 36,
-      "sha256": "db543eae8448d9452705865f73ebc66507c2b18d4be90b50e2ed6701f251c63b"
+      "bytes": 55,
+      "sha256": "3315bb9b6492c8cee11db971b6483e6148b53d21399a94ac7e916078a8d5b6a1"
     },
     {
       "path": "rdn_training/MODEL_CONFIGS.json",
@@ -10758,8 +10758,18 @@
     },
     {
       "path": "rdn_training/READ_ME_FIRST.md",
-      "bytes": 4897,
-      "sha256": "a856226cc4c0ff9bcb7953e57b515ba90e6af898a388579a97ade695e5627ca4"
+      "bytes": 5390,
+      "sha256": "61aef866ee81bcc726477d653f421a32a93a40401460595ffb3d34ff5ef1dcf7"
+    },
+    {
+      "path": "rdn_training/RESNET152_EXTENSION.md",
+      "bytes": 1759,
+      "sha256": "f7b8b8c9d226009b7a209beb0218d996fd1a260a1d323572be9cd1f70b072f63"
+    },
+    {
+      "path": "rdn_training/RESNET152_EXTENSION_VERIFICATION.json",
+      "bytes": 435,
+      "sha256": "7db458c5abfe10a480d6690e4d7ec9f27e00ff2d73357e28d9b513bae9ec7796"
     },
     {
       "path": "rdn_training/RTX5050_MODEL_CONFIGS.json",
@@ -10768,8 +10778,8 @@
     },
     {
       "path": "rdn_training/START_HERE.md",
-      "bytes": 10924,
-      "sha256": "4d39ba9ce07fcebf717bb2f5a17c350428a194203fa05e0c7818f6533b560521"
+      "bytes": 11413,
+      "sha256": "901faa67d1b70521e7301e800d2559337e2dd3ad006aa5f6e8b31e88cd7bb78d"
     },
     {
       "path": "rdn_training/lab_code/__init__.py",
@@ -10833,8 +10843,8 @@
     },
     {
       "path": "rdn_training/notebooks/05_resnet152.ipynb",
-      "bytes": 30501,
-      "sha256": "d8ace315c9b29e7a2c0f602adbf50d14ea3fbbb738c3bfe2681fbaf1cf7fff05"
+      "bytes": 31568,
+      "sha256": "58430603e0bb65297ee85ec8c1c2345721ba212f52c8022c80cf56588569a5fa"
     },
     {
       "path": "rdn_training/notebooks/06_vit_small.ipynb",
@@ -10883,8 +10893,8 @@
     },
     {
       "path": "rdn_training/ready_notebooks/05_resnet152.ipynb",
-      "bytes": 135358,
-      "sha256": "7fb00b4b879ffd32f03536d265c273b08ae1fd5669642928a3f4fa69be3c19dd"
+      "bytes": 31791,
+      "sha256": "0861d813c2f2a2116ff779f62ac88dd18237cbf18efd1e8a333bc66f5dfdd81d"
     },
     {
       "path": "rdn_training/ready_notebooks/06_vit_small.ipynb",
@@ -11563,8 +11573,8 @@
     },
     {
       "path": "rdn_training/tools/build_notebooks.py",
-      "bytes": 21215,
-      "sha256": "1d664ba3b822e9f9845ed87241b9494abfc047e76e98efc7a633e99a79227bd7"
+      "bytes": 21498,
+      "sha256": "48b78da19342278b57569a9418642d7dc40d3ba5c622e32ea15f3080e65f85f0"
     },
     {
       "path": "rdn_training/tools/evaluate_saved_run.py",
@@ -11582,5 +11592,5 @@
       "sha256": "8ccc4ba2786a04693ee3dc00c01ae444f970087ce95d1dca7cfdeeee8cae470d"
     }
   ],
-  "documentation_updated_utc": "2026-10-18T01:11:32.435940+00:00"
+  "documentation_updated_utc": "2026-10-18T01:24:31.114977+00:00"
 }

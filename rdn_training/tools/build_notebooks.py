@@ -126,9 +126,13 @@ def limited_fit_source(runtime, model_key):
     limits = json.loads((ROOT / "EPOCH_LIMITS.json").read_text()) if (ROOT / "EPOCH_LIMITS.json").exists() else {}
     if model_key not in limits:
         return source
+    # ResNet152 continues beyond its original 20-epoch scheduler budget.
+    # Preserve CONFIG and the optimizer/scheduler contract; the LR stays at its floor.
+    limit_expression = ('STOP_AFTER_EPOCH' if model_key == 'resnet152'
+                        else 'min(config["max_epochs"], STOP_AFTER_EPOCH)')
     source = source.replace(
         '    for epoch in range(start, config["max_epochs"]):',
-        '    epoch_limit = min(config["max_epochs"], STOP_AFTER_EPOCH)\n'
+        f'    epoch_limit = {limit_expression}\n'
         '    if epoch_limit <= 0 or start > epoch_limit:\n'
         '        raise ValueError("Stopping limit must be positive and cannot precede saved epochs")\n'
         '    atomic_json(folder / "execution_limit.json", {"stop_after_epoch": epoch_limit,\n'

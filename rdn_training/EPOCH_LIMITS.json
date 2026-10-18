@@ -1,4 +1,5 @@
 {
   "vit_large": 5,
-  "vmamba": 5
+  "vmamba": 5,
+  "resnet152": 30
 }

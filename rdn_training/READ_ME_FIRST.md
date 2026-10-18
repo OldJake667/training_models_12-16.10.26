@@ -21,7 +21,7 @@ Jupyter opens in your browser. Keep that terminal open while you work. If the br
 4. Save the notebook with **Ctrl + S**. Results and epoch checkpoints are also saved automatically under `results/<model>/<run_name>/`.
 5. Before starting another model, choose **Kernel → Shut Down Kernel** in the previous notebook to release GPU memory. Closing its tab alone may leave its kernel running.
 
-Run one model at a time. Keep the laptop plugged in and awake during training. All nine active models now allow a maximum of 20 epochs. Early-stopping patience remains 20 epochs without improving validation loss. Interrupted training resumes from the last completed epoch when you run the same notebook again. New run folders include `_epochs_20` to keep them separate from earlier runs.
+Run one model at a time. Keep the laptop plugged in and awake during training. The original recipes use a 20-epoch scheduler budget; model-specific execution limits are documented below. Early-stopping patience remains 20 epochs without improving validation loss. Interrupted training resumes from the last completed epoch when you run the same notebook again. New run folders include `_epochs_20` to keep them separate from earlier runs.
 
 All nine active model notebooks use `RUN_FINAL_TEST=True`. **Run All** trains a new run, then evaluates its validation-selected checkpoint on the 3,000 held-out test samples. Completed runs automatically load their saved checkpoint instead of repeating training.
 
@@ -70,3 +70,7 @@ All ten models passed synthetic GPU checks at their original batch sizes. The `r
 The environment uses Python 3.12, PyTorch 2.12.0 with CUDA 13.0, and torchvision 0.27.0 as proposed by the package. The NVIDIA driver is 595.91.07 on an RTX 5050 Laptop GPU with 8 GB of VRAM.
 
 VMamba's source is Mamba `v2.2.6.post3`, commit `10b5d6358f27966f6a40e4bf0baa17a460688128`. Its kernel is built with a separate project-local CUDA 13.2 compiler because CUDA 13.0 headers conflict with this Ubuntu version's system math headers. The build targets `sm_120` with one compilation job. The compiler flag changes are recorded in `MAMBA_BUILD_FLAGS.patch`; the scan kernel sources are unchanged. `tools/build_vmamba.sh` records the build command and the linker alias needed by the compiler's runtime wheel.
+
+## ResNet152 continuation to 30 total epochs
+
+The ResNet152 notebook is prepared to continue its saved 20-epoch run through epoch 30 with `STOP_AFTER_EPOCH=30`. The original configuration, optimizer state, run folder, and scheduler are retained; the learning rate remains at its 3e-6 floor. See `RESNET152_EXTENSION.md` for resume instructions and the archived baseline. The published metrics still describe the completed 20-epoch baseline.

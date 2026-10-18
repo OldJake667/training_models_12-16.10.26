@@ -26,6 +26,8 @@ CNN completed its earlier 30-epoch run. Six models completed 20 epochs. ViT-Larg
 
 Training/validation curves, test confusion matrices, histories, metrics, test predictions, and exact saved run configurations are in [`rdn_training/results`](rdn_training/results). See [`results_summary.csv`](rdn_training/results_summary.csv). Some training-summary files retain `test_evaluated: false` from the moment training ended; subsequent held-out evaluation is recorded in each `test_metrics.json`.
 
+**Planned ResNet152 continuation:** the notebook now supports 30 total epochs, resuming after epoch 20. The table above and saved metrics remain the completed 20-epoch baseline until the continuation finishes. The original 20-epoch schedule is retained at its minimum LR for epochs 21–30; see [continuation instructions](rdn_training/RESNET152_EXTENSION.md).
+
 ## Original bandwidth explainability: four previously trained models
 
 This is the earlier **176 training / 45 validation / no independent test** experiment, with Low/High bandwidth labels. Its pretrained DINOv2 and VMamba classifiers are part of this experiment even though DINOv2 is excluded from the RDN experiment. Explanation generation does not retrain any model.

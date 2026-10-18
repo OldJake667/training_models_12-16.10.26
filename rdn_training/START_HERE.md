@@ -119,7 +119,7 @@ the same fixed cutoff is used in all three partitions here.
 The DINOv2-style ViT-Small/14 experiment is excluded from the active comparison.
 Its notebooks are preserved in `archived_notebooks/`, leaving nine active models.
 
-All nine models default to a maximum of **20 epochs**. New automatically named
+The original recipes use a **20-epoch scheduler budget**; model-specific execution limits may differ. New automatically named
 run folders include `_epochs_20`, keeping earlier runs separate. Completed
 results and their saved training configurations are retained.
 
@@ -200,3 +200,7 @@ model architecture/state-dict compatibility, and checkpoint serialization.
 There are no invented accuracy outputs. CUDA execution, VMamba kernel
 compatibility, throughput and training convergence must be checked on the lab
 computer. No full-data or subset training was run to prepare these notebooks.
+
+## ResNet152 continuation to 30 total epochs
+
+The ResNet152 notebook is prepared to continue its saved 20-epoch run through epoch 30 with `STOP_AFTER_EPOCH=30`. The original configuration, optimizer state, run folder, and scheduler are retained; the learning rate remains at its 3e-6 floor. See `RESNET152_EXTENSION.md` for resume instructions and the archived baseline. The published metrics still describe the completed 20-epoch baseline.
