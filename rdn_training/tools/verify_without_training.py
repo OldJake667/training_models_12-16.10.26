@@ -183,7 +183,7 @@ def verify():
         assert torch.equal(state["loader"], loader.generator.get_state())
     report["checks"].append("weights_only checkpoint and RNG serialization round-trip; no optimizer steps")
     report["limitations"] = ["No CUDA hardware available for these checks",
-                              "RTX 5090 and VMamba CUDA kernel require lab preflight",
+                              "RTX 5090 and VMamba CUDA kernel require GPU preflight",
                               "No training, feature extraction, dataset model inference, or accuracy evaluation performed"]
     runtime.atomic_json(ROOT / "VERIFICATION.json", report)
     print(json.dumps(report, indent=2))

@@ -120,7 +120,7 @@ def main():
               'training_executed': False, 'real_image_explanations_executed': False,
               'real_image_model_forwards_executed': False,
               'lime_execution_tested': False, 'RTX_5090_execution_tested': False,
-              'note': 'LIME/scikit-image are not installed locally; full LIME and CUDA execution must be checked on the lab computer.'}
+              'note': 'LIME/scikit-image are not installed locally; full LIME and CUDA execution must be checked on the computer.'}
     (ROOT/'reference/preparation_checks.json').write_text(json.dumps(report, indent=2)+'\n')
     print(json.dumps(report, indent=2))
 

@@ -65,7 +65,7 @@ def save(name, cells):
 def main():
     env = [markdown('''# Environment and packaged inputs
 
-Run this on the lab computer before the model notebooks. This package contains
+Run this on the computer before the model notebooks. This package contains
 the original 45 validation images, original trained best-accuracy checkpoints,
 and archived predictions. It does not contain new training runs or explanations.
 Read [START_HERE.md](START_HERE.md) for installation, particularly VMamba.
@@ -126,7 +126,7 @@ computer are not needed.''')]
 Explain all **45 original bandwidth validation images**, including mistakes.
 Restore the existing best-validation-accuracy checkpoint: archived result
 **{correct}/45**. No training is performed. Classes: **0 Low, 1 High bandwidth**.
-Use [START_HERE.md](START_HERE.md) and notebook 00 to set up the lab computer.
+Use [START_HERE.md](START_HERE.md) and notebook 00 to set up the computer.
 These validation images were used in checkpoint selection; they are not an
 independent test set.
 '''), code(ROOT_CELL)]

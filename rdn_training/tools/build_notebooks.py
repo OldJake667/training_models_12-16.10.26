@@ -99,7 +99,7 @@ PROFILES = [
     ("08_vit_large.ipynb", "ViT-Large", "vit_large", "vit_large_patch16_224", "build_standard_model",
      dict(batch_size=8, accumulation_steps=16),
      "Standard ViT-Large/16 from scratch: embedding size 1024, 24 blocks and 16 heads. "
-     "About 303 million parameters. The initial physical batch is deliberately small; profile it on the lab GPU."),
+     "About 303 million parameters. The initial physical batch is deliberately small; profile it on the GPU."),
     ("10_vmamba.ipynb", "VMamba-Tiny from scratch", "vmamba", "vmamba_tiny_s1l8", "build_vmamba_from_scratch",
      dict(normalization="imagenet", train_backbone=True, batch_size=4,
           accumulation_steps=32, feature_batch_size=4, learning_rate=3e-4,
@@ -298,7 +298,7 @@ else:
                "The test set is never used in this function."),
             code(limited_fit_source(runtime, model_key), "fit_definition"),
             md("## Start or resume training\n\nAll models train from images and update every layer. "
-               "This cell starts real training on the lab computer."),
+               "This cell starts real training on the computer."),
             code(launch, "training_launch"),
             md("## Results and accuracy/loss graphs\n\nCurves show online training and evaluation-mode "
                "validation. Final train/validation metrics are evaluated at the same selected checkpoint."),
@@ -321,7 +321,7 @@ else:
 
 
 def create_preflight(folder):
-    cells = [md("# Environment and full RDN check\n\nRun this on the lab computer before opening "
+    cells = [md("# Environment and full RDN check\n\nRun this on the computer before opening "
                 "a model notebook. No dataset training or model accuracy evaluation occurs here."),
              code(IMPORTS, "imports"),
              code('''device = select_device(require_cuda=True)

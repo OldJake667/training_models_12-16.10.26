@@ -29,7 +29,7 @@ timm 1.0.20). The proposed lab environment uses Python 3.11 and CUDA PyTorch.
 LIME/scikit-image were not installed in the local environment, so full LIME
 execution was not tested here. No original-image explanation or model training
 was run. RTX 5090 execution and VMamba's CUDA kernel remain to be verified on
-the lab computer using notebook 00 and each model's prediction audit.
+the computer using notebook 00 and each model's prediction audit.
 
 Machine-readable details: `reference/preparation_checks.json`.
 To repeat the preparation checks, with existing Python/model dependencies:

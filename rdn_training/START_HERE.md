@@ -1,10 +1,10 @@
-# Full RDN notebooks for the lab GPU
+# Full RDN notebooks for the GPU
 
 These are new runnable notebooks, not the previous result-review notebooks.
 They are supplied with empty outputs. No model training was performed while
 preparing this package.
 
-Copy or extract the **entire folder** to the lab computer. It contains all
+Copy or extract the **entire folder** to the computer. It contains all
 111,000 layouts, the fixed full split, both pretrained backbones, supporting
 Python files, and ten model notebooks. No paths refer to the original Mac.
 
@@ -27,7 +27,7 @@ python -m jupyter lab
 ```
 
 The torch/torchvision pair is a proposed reproducible CUDA 13.0 environment,
-not a configuration tested on the lab machine. Verify availability against
+not a configuration tested on the computer. Verify availability against
 [PyTorch's installation selector](https://pytorch.org/get-started/locally/)
 before installing. For PyTorch 2.12 CUDA 13.0, the stated minimum NVIDIA driver
 is 580.65.06 on Linux or 580.88 on Windows; use a compatible current driver.

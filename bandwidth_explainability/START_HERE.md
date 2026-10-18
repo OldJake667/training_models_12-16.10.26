@@ -5,7 +5,7 @@ already trained classifiers. It does not retrain any model. It is separate
 from the full SUTD RDN training package and its resonance-index classification.
 Here the two classes remain **0 = Low bandwidth, 1 = High bandwidth**.
 
-Copy/extract the entire folder on the lab computer, including `data`,
+Copy/extract the entire folder on the computer, including `data`,
 `checkpoints`, `reference`, and `xai_code`. No model download is needed after
 the Python environment and VMamba CUDA extension have been installed.
 
@@ -217,7 +217,7 @@ Start with the default 1,000 LIME samples. If GPU memory runs out, reduce
 `BATCH_SIZE`; do not change the model or preprocessing to make the explanations
 fit. LIME performs about 45,000 model forwards per model across its 45 images;
 the CPU reference VMamba path is unsuitable for that workload. Timing depends
-on the lab computer and compiled kernel.
+on the computer and compiled kernel.
 
 ## Included provenance and verification
 
@@ -233,7 +233,7 @@ current notebook code-cell source hashes are recorded in each run configuration.
 
 `VERIFICATION.md` describes checks performed during preparation. No model was
 retrained and no real-image explanation was run while preparing this package.
-The full CUDA/LIME execution remains to be performed on the lab computer.
+The full CUDA/LIME execution remains to be performed on the computer.
 
 VMamba's vendored implementation and license come from the earlier verified
 project copy; see `licenses/VMamba_LICENSE.txt` and the [official VMamba repository](https://github.com/MzeroMiko/VMamba).

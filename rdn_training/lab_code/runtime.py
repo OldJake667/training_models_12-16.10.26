@@ -82,7 +82,7 @@ def select_device(require_cuda=True):
             raise RuntimeError("CUDA check failed")
         return device
     if require_cuda:
-        raise RuntimeError("CUDA is unavailable. Select the lab GPU environment/kernel; "
+        raise RuntimeError("CUDA is unavailable. Select the GPU environment/kernel; "
                            "see START_HERE.md. Training has not started.")
     return torch.device("cpu")
 
@@ -506,7 +506,7 @@ def restore_rng(state, loader):
 
 
 def config_identity(config, identity):
-    # Paths may change when the package moves to the lab; run meaning must not.
+    # Paths may change when the package moves between computers; run meaning must not.
     return {"config": config, "data": identity}
 
 

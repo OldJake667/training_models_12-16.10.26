@@ -19,5 +19,5 @@
   "real_image_model_forwards_executed": false,
   "lime_execution_tested": false,
   "RTX_5090_execution_tested": false,
-  "note": "LIME/scikit-image are not installed locally; full LIME and CUDA execution must be checked on the lab computer."
+  "note": "LIME/scikit-image are not installed locally; full LIME and CUDA execution must be checked on the computer."
 }
