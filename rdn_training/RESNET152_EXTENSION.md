@@ -1,28 +1,22 @@
-# ResNet152: continuation from 20 to 30 total epochs
+# ResNet152: completed continuation to 30 epochs
 
-The scratch ResNet152 notebook is prepared to resume its saved run at epoch 21
-and stop at 30 total epochs. Training has not been started during preparation.
+The scratch ResNet152 run completed 30 total epochs. Epoch 11 remained the
+minimum-validation-loss checkpoint; train accuracy is 70.45%, validation
+accuracy 66.83%, and held-out test accuracy 68.90% on 3,000 samples.
 
-- Open `ready_notebooks/05_resnet152.ipynb` in the original working project.
-- Close and reopen the file to load the updated configuration, then restart its
-  kernel and select Run All. Run one model at a time.
-- `STOP_AFTER_EPOCH=30` controls the actual loop. Keep `CONFIG['max_epochs']=20`,
-  `resume=True`, and `RUN_NAME=None` unchanged for checkpoint compatibility.
-- The existing optimizer, scaler, RNG state, epoch history, and minimum-validation-loss
-  selection resume from `last_checkpoint.pt`. The selected checkpoint can remain
-  from the first 20 epochs if later validation loss does not improve.
-- The original 20-epoch cosine schedule has reached its minimum learning rate,
-  **3e-6**. Epochs 21–30 continue at that rate. This is not a new 30-epoch cosine
-  schedule or an ImageNet-pretrained experiment.
-- The directory remains `results/resnet152/seed_42_all_layers_epochs_20` to retain
-  checkpoint identity. Final execution records and metrics report the actual
-  completed epochs and the 30-epoch limit.
+The run resumed after epoch 20 using the original optimizer, scheduler, scaler,
+RNG state, and checkpoint identity. Epochs 21–30 used the original scheduler's
+minimum learning rate, **3e-6**. This was a continuation of the 20-epoch schedule,
+rather than a newly initialized 30-epoch schedule.
 
-The full original 20-epoch run, including both checkpoints, was copied and
-hash-verified under `local_checks/resnet152_before_30_epochs_*` on the working
-computer. Its completion marker and previous test outputs were archived so the
-continuation can train and then evaluate its selected checkpoint. Original
-checkpoints remain local and are not uploaded to GitHub.
+The directory remains `results/resnet152/seed_42_all_layers_epochs_20` for
+checkpoint compatibility. History, completion metadata, metrics, plots, and
+`results_summary.csv` now record the actual 30 completed epochs. The original
+20-epoch run and checkpoint files remain backed up locally; weights are not
+uploaded.
 
-The published result table and `results_summary.csv` still describe the
-completed 20-epoch run. No 30-epoch results exist until the continuation finishes.
+The notebook exposes `STOP_AFTER_EPOCH=30` while preserving
+`CONFIG['max_epochs']=20`, `resume=True`, and `RUN_NAME=None`. A completed run
+loads the selected checkpoint. `RESNET152_EXTENSION_VERIFICATION.json` records
+the earlier synthetic preparation check; `RESNET152_COMPLETION.json` records
+the completed research run's publication audit.

@@ -1,6 +1,8 @@
 # Model training and explainability results — 12–16 October 2026
 
-Snapshot: 2026-10-16T07:41:56.754573+00:00
+Initial snapshot: 2026-10-16T07:41:56.754573+00:00
+
+Latest ResNet152 result update: 2026-10-19T00:44:52.831690+00:00
 
 This repository records two separate experiments. Their datasets, labels, checkpoints, and accuracy measurements must be kept distinct.
 
@@ -19,14 +21,14 @@ All nine active models trained all layers from random initialization. Checkpoint
 | ViT-Large | 5 | 5 | 51.26% | 51.26% | **51.57%** |
 | ResNet50 | 20 | 11 | 69.95% | 66.57% | **68.07%** |
 | ResNet101 | 20 | 11 | 70.91% | 67.19% | **67.93%** |
-| ResNet152 | 20 | 11 | 70.45% | 66.83% | **68.90%** |
+| ResNet152 | 30 | 11 | 70.45% | 66.83% | **68.90%** |
 | VMamba | 5 | 4 | 64.66% | 64.71% | **65.33%** |
 
-CNN completed its earlier 30-epoch run. Six models completed 20 epochs. ViT-Large and VMamba were capped at **five total epochs** to limit computation; their original 20-epoch learning-rate schedule and directory names were retained for checkpoint compatibility. Different epoch budgets limit direct architecture comparisons. These are single-seed results (seed 42), not repeated-run estimates.
+CNN and ResNet152 completed 30 total epochs. Five models completed 20 epochs. ViT-Large and VMamba were capped at **five total epochs** to limit computation; their original 20-epoch learning-rate schedule and directory names were retained for checkpoint compatibility. Different epoch budgets limit direct architecture comparisons. These are single-seed results (seed 42), not repeated-run estimates.
 
 Training/validation curves, test confusion matrices, histories, metrics, test predictions, and exact saved run configurations are in [`rdn_training/results`](rdn_training/results). See [`results_summary.csv`](rdn_training/results_summary.csv). Some training-summary files retain `test_evaluated: false` from the moment training ended; subsequent held-out evaluation is recorded in each `test_metrics.json`.
 
-**Planned ResNet152 continuation:** the notebook now supports 30 total epochs, resuming after epoch 20. The table above and saved metrics remain the completed 20-epoch baseline until the continuation finishes. The original 20-epoch schedule is retained at its minimum LR for epochs 21–30; see [continuation instructions](rdn_training/RESNET152_EXTENSION.md).
+**Completed ResNet152 continuation:** training resumed after epoch 20 and finished 30 total epochs. Epoch 11 remained the validation-selected checkpoint, so its test accuracy remains **68.90%**. Epochs 21–30 retained the original schedule at its minimum LR of `3e-6`; see [continuation details](rdn_training/RESNET152_EXTENSION.md). The `epochs_20` directory name is retained for checkpoint compatibility.
 
 ## Original bandwidth explainability: four previously trained models
 

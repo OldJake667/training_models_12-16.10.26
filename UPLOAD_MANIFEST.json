@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6405,
-      "sha256": "53260cb7cba28d2c05fd059b9883ab77ad881d424af7e25d8ef0f6903a118dc0"
+      "bytes": 6532,
+      "sha256": "fe384906aa32493b71431c2a5fa46bf1fc2b2045e52e12e916ad21a87ee0f6fd"
     },
     {
       "path": "bandwidth_explainability/00_environment_and_checkpoint_check.ipynb",
@@ -10762,9 +10762,14 @@
       "sha256": "61aef866ee81bcc726477d653f421a32a93a40401460595ffb3d34ff5ef1dcf7"
     },
     {
+      "path": "rdn_training/RESNET152_COMPLETION.json",
+      "bytes": 422,
+      "sha256": "c794bd05c26b9fb788745368276c85735c6abd14e1d16136696210ebb9b3ccea"
+    },
+    {
       "path": "rdn_training/RESNET152_EXTENSION.md",
-      "bytes": 1759,
-      "sha256": "f7b8b8c9d226009b7a209beb0218d996fd1a260a1d323572be9cd1f70b072f63"
+      "bytes": 1223,
+      "sha256": "62d13c5ca10fced07ae40d97bd4a8008e9f3340e3db4cc41995328fd6595bc36"
     },
     {
       "path": "rdn_training/RESNET152_EXTENSION_VERIFICATION.json",
@@ -10843,8 +10848,8 @@
     },
     {
       "path": "rdn_training/notebooks/05_resnet152.ipynb",
-      "bytes": 31568,
-      "sha256": "58430603e0bb65297ee85ec8c1c2345721ba212f52c8022c80cf56588569a5fa"
+      "bytes": 31487,
+      "sha256": "14d63da7ad4b0c12d505862d27553537603e70f37583cf1f80f5b59499863b82"
     },
     {
       "path": "rdn_training/notebooks/06_vit_small.ipynb",
@@ -10893,8 +10898,8 @@
     },
     {
       "path": "rdn_training/ready_notebooks/05_resnet152.ipynb",
-      "bytes": 31791,
-      "sha256": "0861d813c2f2a2116ff779f62ac88dd18237cbf18efd1e8a333bc66f5dfdd81d"
+      "bytes": 120269,
+      "sha256": "b713ed8f8a649b9ddbf17743ab6eaa4ec51cf7cbf8d5992ba9b4ad78d96e12fd"
     },
     {
       "path": "rdn_training/ready_notebooks/06_vit_small.ipynb",
@@ -11068,18 +11073,18 @@
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/TRAINING_COMPLETE.json",
-      "bytes": 80,
-      "sha256": "19308a005f0f189935735caff3437d5e1629142933e6e7e2005deec75e06ce39"
+      "bytes": 101,
+      "sha256": "60ae417bdd499ed5abcdb9658929b79515421a6f7feaa7ba30a44d59011c23d7"
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/accuracy_curves.pdf",
-      "bytes": 14227,
-      "sha256": "44fa50c12791cb2319dcc3c4022704bc6dfa508811a45bcfc98a3f7bb270ff91"
+      "bytes": 13878,
+      "sha256": "fe71c2294d217e5cb68025f5ead254f94c778f6457df0b380f91833078ce7275"
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/accuracy_curves.png",
-      "bytes": 50126,
-      "sha256": "005e10c1056e1444ea2f9b0614e2cbb69473c9cb2bd372c1efcaafd276243350"
+      "bytes": 45748,
+      "sha256": "c19462e34fb4948e8c022769d13fa8c4fbb9bb1268e6932a79a0ebc863397b14"
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/environment.json",
@@ -11088,23 +11093,23 @@
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/history.csv",
-      "bytes": 2434,
-      "sha256": "15759bd45a9c83c5560968286fc4cfc5f01f4dd83fe8fbd62099404c4aa7b312"
+      "bytes": 3606,
+      "sha256": "4a7ddca1fc7fa5d301fdcaef1281f48e43624434bf78bdfccff2cba03b919c62"
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/history.json",
-      "bytes": 5520,
-      "sha256": "9de7d3af7b75c6a30b22dfcf48a395544eab79ed233e1bc69e58956de1c33537"
+      "bytes": 8313,
+      "sha256": "9bbe84d75e1ed1c951df8f9ac3869917d00e48c90cdfa6f404671266bcd2e8b1"
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/loss_curves.pdf",
-      "bytes": 15443,
-      "sha256": "87d0380da30970bce13b3250795430075e16f18bf11650a9bfe41a3203624bbe"
+      "bytes": 14016,
+      "sha256": "32362a7907532f543987e4a8b485f5bc952aa62009ff24cca3912e8ac448e690"
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/loss_curves.png",
-      "bytes": 65365,
-      "sha256": "9f23bf37cd8cfca99a77430e0ae07aa2d876f4480473aa601fc35ffcd6cefdfb"
+      "bytes": 56009,
+      "sha256": "fd83f2bd119efb95dc9a1aa00bd4a724140aaa20bc34c54d465d5ea86bff1a31"
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/model_info.json",
@@ -11133,8 +11138,8 @@
     },
     {
       "path": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20/training_validation_metrics.json",
-      "bytes": 2773,
-      "sha256": "2122c41f8eb11729607d0feb1f872d357c6e2b31a55f455030de4c57a9f58bd9"
+      "bytes": 2794,
+      "sha256": "29ce3528661f965274397935b32b3cc8ae2c4f0027005f52a2b4e81ee3a46c77"
     },
     {
       "path": "rdn_training/results/resnet50/seed_42_all_layers_epochs_20/TRAINING_COMPLETE.json",
@@ -11568,8 +11573,8 @@
     },
     {
       "path": "rdn_training/results_summary.csv",
-      "bytes": 1594,
-      "sha256": "04392e752241033a6e52282723d7c0c0feb858c1e3248bac730caba040aab4f3"
+      "bytes": 1584,
+      "sha256": "a75df9982c39ca7a5cc9c457a804f597f9a0e89414067dc1f60c3561f55af63f"
     },
     {
       "path": "rdn_training/tools/build_notebooks.py",
@@ -11592,5 +11597,6 @@
       "sha256": "8ccc4ba2786a04693ee3dc00c01ae444f970087ce95d1dca7cfdeeee8cae470d"
     }
   ],
-  "documentation_updated_utc": "2026-10-18T01:24:31.114977+00:00"
+  "documentation_updated_utc": "2026-10-18T01:24:31.114977+00:00",
+  "results_updated_utc": "2026-10-19T00:44:52.831690+00:00"
 }

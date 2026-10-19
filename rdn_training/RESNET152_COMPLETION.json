@@ -1,0 +1,12 @@
+{
+  "published_utc": "2026-10-19T00:44:52.831690+00:00",
+  "epochs_completed": 30,
+  "selected_epoch": 11,
+  "test_records": 3000,
+  "test_accuracy": 0.689,
+  "additional_epochs_learning_rate": 3e-06,
+  "last_epoch_learning_rate": 2.9999999999999997e-06,
+  "history_completion_counts_match": true,
+  "checkpoint_weights_published": false,
+  "run_directory": "rdn_training/results/resnet152/seed_42_all_layers_epochs_20"
+}

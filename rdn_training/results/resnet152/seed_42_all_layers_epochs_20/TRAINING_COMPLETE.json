@@ -1,5 +1,6 @@
 {
   "selected_epoch": 11,
-  "epochs_completed": 20,
+  "epochs_completed": 30,
+  "epoch_limit": 30,
   "test_evaluated": false
 }

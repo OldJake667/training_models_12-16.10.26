@@ -1,7 +1,8 @@
 {
   "selection": "minimum_validation_loss",
   "selected_epoch": 11,
-  "epochs_completed": 20,
+  "epochs_completed": 30,
+  "epoch_limit": 30,
   "model_info": {
     "architecture": "resnet152",
     "total_parameters": 58147906,
@@ -13,8 +14,8 @@
     "input_channels": 3,
     "pretrained": false
   },
-  "training_seconds": 17333.419408311005,
-  "peak_gpu_memory_bytes": 1876384768,
+  "training_seconds": 25797.458572360993,
+  "peak_gpu_memory_bytes": 1868323840,
   "test_evaluated": false,
   "train": {
     "records": 97200,
